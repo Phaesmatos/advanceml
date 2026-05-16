@@ -1,0 +1,125 @@
+jets:
+  pt:
+    mean: 1036842.671875
+    std: 897755.8210992398
+  eta:
+    mean: 0.0017264679270283523
+    std: 0.9913563658780274
+  mass:
+    mean: 156978.7265625
+    std: 154103.4653856838
+  energy:
+    mean: 1409160.78125
+    std: 999767.3472374042
+  Qw_clusterSoftDrop:
+    mean: 40081.3740234375
+    std: 46371.331500738816
+  C2_clusterSoftDrop:
+    mean: -11.845247268676758
+    std: 108.86786042065285
+  D2_clusterSoftDrop:
+    mean: -9.534451961517334
+    std: 109.13221803783884
+  Tau1_clusterSoftDrop:
+    mean: 0.10681322403252125
+    std: 0.10847785869621923
+  Tau2_clusterSoftDrop:
+    mean: 0.05742169264703989
+    std: 0.06040619850340391
+  Tau3_clusterSoftDrop:
+    mean: 0.042019085958600044
+    std: 0.04733574361123178
+  Tau4_clusterSoftDrop:
+    mean: 0.03347492963075638
+    std: 0.04037927599756195
+  Tau21_clusterSoftDrop:
+    mean: -11.489492893218994
+    std: 108.9071980697461
+  Tau32_clusterSoftDrop:
+    mean: -46.297606468200684
+    std: 211.4287546326584
+  ECF1_clusterSoftDrop:
+    mean: 1006976.34375
+    std: 857739.496358847
+  ECF2_clusterSoftDrop:
+    mean: 80522412032.0
+    std: 194840519932.7852
+tracks:
+  d0:
+    mean: -0.5693026483058929
+    std: 52.51101102399873
+  z0SinTheta:
+    mean: 0.013076283852569759
+    std: 82.22420338615872
+  dphi:
+    mean: 0.0012714478943962604
+    std: 0.394731485695054
+  deta:
+    mean: -0.0006119135432527401
+    std: 0.3970912975840009
+  qOverP:
+    mean: 8.376824098377256e-06
+    std: 0.00043642354567811377
+  chiSquared:
+    mean: 27.520945072174072
+    std: 18.784311948920745
+  radiusOfFirstHit:
+    mean: 106.81210136413574
+    std: 145.010204070504
+  theta:
+    mean: 1.570008009672165
+    std: 0.7575705755740281
+  numberDoF:
+    mean: 26.77191972732544
+    std: 17.43312192492837
+  pt:
+    mean: 8059997.154296875
+    std: 41082986830.414276
+  z0RelativeToBeamspot:
+    mean: 0.024066273763310164
+    std: 109.25411332271925
+  z0RelativeToBeamspotUncertainty:
+    mean: 4.42305314540863
+    std: 29.394853531719974
+  IP3D_signed_d0_significance:
+    mean: 10.97618293762207
+    std: 324.4122127692756
+  IP3D_signed_z0_significance:
+    mean: 0.17707636207342148
+    std: 2.872161740594577
+  phiUncertainty:
+    mean: 0.002681399171706289
+    std: 0.0036566977211331094
+  thetaUncertainty:
+    mean: 0.0050372559344395995
+    std: 0.027978343156645796
+  qOverPUncertainty:
+    mean: 7.855841886339476e-06
+    std: 6.694962679757107e-06
+  z0SinThetaUncertainty:
+    mean: 30.305757522583008
+    std: 25.18744267963752
+  numberOfPixelHits:
+    mean: 2.7689588894730637
+    std: 1.7425092408203893
+  numberOfSCTHits:
+    mean: 7.50259785343338
+    std: 2.1502051986320065
+  numberOfSCTHoles:
+    mean: 0.22589273968551854
+    std: 0.4549817317090095
+  numberOfInnermostPixelLayerHits:
+    mean: 0.6512125548449736
+    std: 0.5516562502686722
+  numberOfPixelSharedHits:
+    mean: 0.027931490430397884
+    std: 0.16897123061798602
+  numberOfSCTSharedHits:
+    mean: 0.253965850145267
+    std: 0.6467507732028629
+  pt_log1p:
+    mean: 8.0670645236969
+    std: 1.1986204827094395
+  d0_log1p:
+    mean: -0.040255396626889706
+    std: 2.04134151220812

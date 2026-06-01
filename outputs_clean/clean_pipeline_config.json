@@ -1,0 +1,55 @@
+{
+  "USE_DISPLACED_PT_FRACTION": false,
+  "EVAL_ONLY_TRUE_DISPLACED_SIGNAL": true,
+  "USE_JET_FEATURES": true,
+  "USE_TRACK_AGGREGATES": true,
+  "jet_features": [
+    "pt",
+    "eta",
+    "mass",
+    "energy",
+    "Qw_clusterSoftDrop",
+    "C2_clusterSoftDrop",
+    "D2_clusterSoftDrop",
+    "Tau1_clusterSoftDrop",
+    "Tau2_clusterSoftDrop",
+    "Tau3_clusterSoftDrop",
+    "Tau21_clusterSoftDrop",
+    "Tau32_clusterSoftDrop",
+    "ECF1_clusterSoftDrop",
+    "ECF2_clusterSoftDrop"
+  ],
+  "track_features": [
+    "d0",
+    "z0SinTheta",
+    "dphi",
+    "deta",
+    "pt_log1p",
+    "radiusOfFirstHit",
+    "numberOfPixelHits",
+    "numberOfSCTHits",
+    "numberOfSCTHoles",
+    "numberOfInnermostPixelLayerHits",
+    "numberOfPixelSharedHits",
+    "numberOfSCTSharedHits"
+  ],
+  "processed_files": {
+    "val": "processed_clean\\processed_clean_jet_track_val.npz",
+    "test_background": "processed_clean\\processed_clean_jet_track_test_background.npz",
+    "test_signal": "processed_clean\\processed_clean_jet_track_test_signal.npz"
+  },
+  "max_jets_map": {
+    "val": 100000,
+    "test_background": 100000,
+    "test_signal": 100000
+  },
+  "ae_latent_dim": 16,
+  "vae_latent_dim": 16,
+  "vae_beta": 0.001,
+  "auc_logreg": 0.9944609327866197,
+  "auc_track_only_logreg": 0.9894677834031028,
+  "ae_best_auc": 0.8409908564147274,
+  "vae_reco_best_auc": 0.8382788730635101,
+  "vae_kl_best_auc": 0.8205977509892027,
+  "vae_total_best_auc": 0.8477047376936488
+}

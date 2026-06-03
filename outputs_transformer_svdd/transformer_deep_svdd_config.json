@@ -1,0 +1,52 @@
+{
+  "dataset_name": "processed_flow",
+  "processed_files": {
+    "val": "processed_flow\\processed_flow_jet_track_val.npz",
+    "test_background": "processed_flow\\processed_flow_jet_track_test_background.npz",
+    "test_signal": "processed_flow\\processed_flow_jet_track_test_signal.npz"
+  },
+  "EVAL_ONLY_TRUE_DISPLACED_SIGNAL": true,
+  "jet_features": [
+    "pt",
+    "eta",
+    "mass",
+    "energy",
+    "Qw_clusterSoftDrop",
+    "C2_clusterSoftDrop",
+    "D2_clusterSoftDrop",
+    "Tau1_clusterSoftDrop",
+    "Tau2_clusterSoftDrop",
+    "Tau3_clusterSoftDrop",
+    "Tau21_clusterSoftDrop",
+    "Tau32_clusterSoftDrop",
+    "ECF1_clusterSoftDrop",
+    "ECF2_clusterSoftDrop"
+  ],
+  "track_features": [
+    "d0",
+    "z0SinTheta",
+    "dphi",
+    "deta",
+    "pt_log1p",
+    "radiusOfFirstHit",
+    "numberOfPixelHits",
+    "numberOfSCTHits",
+    "numberOfSCTHoles",
+    "numberOfInnermostPixelLayerHits",
+    "numberOfPixelSharedHits",
+    "numberOfSCTSharedHits"
+  ],
+  "d_model": 96,
+  "n_heads": 4,
+  "n_layers": 3,
+  "dim_feedforward": 256,
+  "latent_dim": 64,
+  "dropout": 0.05,
+  "learning_rate": 0.0001,
+  "batch_size": 512,
+  "best_epoch": 19,
+  "best_val_loss": 0.0006309517111629248,
+  "best_auc_svdd": 0.8899255712321649,
+  "best_auc_train_bg": 0.50005471395,
+  "auc_latent_logreg": 0.9260264535479426
+}

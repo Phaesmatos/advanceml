@@ -1,0 +1,18 @@
+{
+  "models_evaluated": [
+    "Transformer Deep SVDD",
+    "RealNVP Flow",
+    "Diffusion v2 z-all",
+    "Stable RealNVP Flow",
+    "Diffusion v2 z-mid",
+    "Aggregate VAE total",
+    "Aggregate AE",
+    "Aggregate VAE reco",
+    "Transformer Set AE total",
+    "Diffusion",
+    "Transformer Set AE track"
+  ],
+  "best_model_by_auc": "Transformer Deep SVDD",
+  "best_auc": 0.8899255712321649,
+  "output_dir": "outputs_task3"
+}

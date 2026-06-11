@@ -1,0 +1,13 @@
+{
+  "n_bkg_train": 40000,
+  "n_bkg_eval": 40000,
+  "n_sig": 40000,
+  "n_jet_features": 15,
+  "n_track_features": 16,
+  "aggregate_dim": 96,
+  "clip_sigma": 10.0,
+  "max_tracks": 200,
+  "uses_displacedPtFraction": false,
+  "background_consistency_auc_train_vs_eval": 0.5006256319444444,
+  "supervised_logreg_auc_qcd_vs_ej": 0.9864419444444443
+}

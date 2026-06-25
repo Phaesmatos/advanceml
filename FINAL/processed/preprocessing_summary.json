@@ -1,6 +1,6 @@
 {
-  "n_bkg_train": 200000,
-  "n_bkg_eval": 200000,
+  "n_bkg_train": 100000,
+  "n_bkg_eval": 100000,
   "n_sig": 61966,
   "n_jet_features": 15,
   "n_track_features": 16,
@@ -8,6 +8,6 @@
   "clip_sigma": 10.0,
   "max_tracks": 200,
   "uses_displacedPtFraction": false,
-  "background_consistency_auc_train_vs_eval": 0.5006872916666667,
-  "supervised_logreg_auc_qcd_vs_ej": 0.9872007019903175
+  "background_consistency_auc_train_vs_eval": 0.5006336222222223,
+  "supervised_logreg_auc_qcd_vs_ej": 0.9879516101846872
 }

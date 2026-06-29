@@ -1,9 +1,0 @@
-model,type,auc
-Supervised GBT A,supervised,0.9977312412675348
-Supervised GBT B,supervised,0.9930913783788818
-Transformer Deep SVDD,unsupervised,0.8899255712321649
-NF (RealNVP),unsupervised,0.8713137467934208
-DDPM,unsupervised,0.849824060912429
-AE [no-disp],unsupervised,0.8409908564147274
-VAE [no-disp],unsupervised,0.8382788730635101
-Transformer Set AE,unsupervised,0.801245292238821
